@@ -1,0 +1,33 @@
+{
+    "name": "talesoft/tale-crud",
+    "type": "library",
+    "keywords": ["crud", "dbal"],
+    "description": "A complete and fully-functional implementation of the Jade template language for PHP",
+    "license": "MIT",
+    "homepage": "http://crud.talesoft.io",
+    "authors": [
+        {
+            "name": "Talesoft",
+            "homepage": "http://talesoft.io",
+            "email": "info@talesoft.io"
+        },
+        {
+            "name": "Torben Koehn",
+            "email": "tk@talesoft.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tale\\": ""
+        },
+        "files": [
+        ]
+    }
+}
